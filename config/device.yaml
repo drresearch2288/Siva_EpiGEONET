@@ -1,0 +1,4 @@
+device:
+  type: "auto"
+  enable_mps_fallback: true
+  dtype: "float32"

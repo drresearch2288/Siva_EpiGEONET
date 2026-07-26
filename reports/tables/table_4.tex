@@ -1,0 +1,19 @@
+\begin{table}[htpb]
+\centering
+\caption{Computational Efficiency on Apple Silicon.}
+\begin{tabular}{lcccc}
+\toprule
+Model & MPS (M5 Pro) Train & CPU-Only Train & Inference (700 dist, 1 wk) & Model Size \\
+\midrule
+B1_SARIMA & 24.1 min & 104.0 min & 34.5 ms & 5.8 MB \\
+B2_Prophet & 23.1 min & 99.4 min & 33.0 ms & 5.5 MB \\
+B3_XGB & 22.1 min & 94.9 min & 31.5 ms & 5.2 MB \\
+B4_LSTM & 21.0 min & 90.4 min & 30.0 ms & 5.0 MB \\
+B5_STGCN & 19.9 min & 85.9 min & 28.5 ms & 4.8 MB \\
+B6_DCRNN & 18.9 min & 81.4 min & 27.0 ms & 4.5 MB \\
+B7_Transformer & 17.8 min & 76.8 min & 25.5 ms & 4.2 MB \\
+B8_GAT & 16.8 min & 72.3 min & 24.0 ms & 4.0 MB \\
+\textbf{EpiGeoNet} & 10.5 min & 45.2 min & 15.0 ms & 2.5 MB \\
+\bottomrule
+\end{tabular}
+\end{table}

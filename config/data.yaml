@@ -1,0 +1,13 @@
+datasets:
+  epiclim:
+    url: "https://example.com/epiclim"
+    doi: "10.1234/epiclim"
+  census:
+    url: "https://example.com/census"
+    doi: "10.1234/census"
+  boundaries:
+    url: "https://example.com/boundaries"
+    doi: "10.1234/boundaries"
+  mobility:
+    url: "https://example.com/mobility"
+    doi: "10.1234/mobility"

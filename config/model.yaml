@@ -1,0 +1,9 @@
+model:
+  dims:
+    hidden: 64
+    latent: 128
+  gatv2:
+    heads: 4
+    layers: 2
+  tcn:
+    dilations: [1, 2, 4, 8]

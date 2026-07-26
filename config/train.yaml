@@ -1,0 +1,9 @@
+training:
+  optimiser: "AdamW"
+  lr: 1e-3
+  epochs: 200
+  loss_weights:
+    lambda1: 0.5
+    lambda2: 0.4
+    lambda3: 0.05
+    lambda4: 0.05
